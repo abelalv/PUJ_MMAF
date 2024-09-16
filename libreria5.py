@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets as widgets
-from IPython.display import display, clear_output
+from IPython.display import display, clear_output, Math
 
 # Función para graficar el polinomio
 def grafica_polinomio(coefs):
