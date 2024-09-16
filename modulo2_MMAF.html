@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.45">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -202,6 +202,12 @@ window.Quarto = {
  <span class="menu-text">Reto 4. Reduciendo la brecha de acceso a Internet en población de escasos recursos</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modulo4_MMAF.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reto 4. Reduciendo la brecha de acceso a Internet en población de escasos recursos</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -221,10 +227,10 @@ window.Quarto = {
   <li><a href="#trabajando-con-python" id="toc-trabajando-con-python" class="nav-link" data-scroll-target="#trabajando-con-python">Trabajando con Python</a>
   <ul class="collapse">
   <li><a href="#operaciones-simbólicas" id="toc-operaciones-simbólicas" class="nav-link" data-scroll-target="#operaciones-simbólicas">Operaciones simbólicas</a></li>
-  <li><a href="#operaciones-con-polinomios" id="toc-operaciones-con-polinomios" class="nav-link" data-scroll-target="#operaciones-con-polinomios">Operaciones con polinomios</a></li>
+  <li><a href="#operaciones-sobre-polinomios" id="toc-operaciones-sobre-polinomios" class="nav-link" data-scroll-target="#operaciones-sobre-polinomios">Operaciones sobre polinomios</a></li>
   <li><a href="#ejercicios-de-apropiación-y-aplicación" id="toc-ejercicios-de-apropiación-y-aplicación" class="nav-link" data-scroll-target="#ejercicios-de-apropiación-y-aplicación">Ejercicios de apropiación y aplicación</a></li>
   </ul></li>
-  <li><a href="#conexión-con-el-reto" id="toc-conexión-con-el-reto" class="nav-link" data-scroll-target="#conexión-con-el-reto">Conexión con el reto</a>
+  <li><a href="#solución-del-reto" id="toc-solución-del-reto" class="nav-link" data-scroll-target="#solución-del-reto">Solución del reto</a>
   <ul class="collapse">
   <li><a href="#tanque-rectangular-para-almacenamiento-de-agua-potable" id="toc-tanque-rectangular-para-almacenamiento-de-agua-potable" class="nav-link" data-scroll-target="#tanque-rectangular-para-almacenamiento-de-agua-potable">Tanque rectangular para almacenamiento de agua potable</a></li>
   </ul></li>
@@ -302,9 +308,9 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="operaciones-con-polinomios" class="level3">
-<h3 class="anchored" data-anchor-id="operaciones-con-polinomios">Operaciones con polinomios</h3>
-<p>El siguiente ejemplo muestra dos polinomios de segundo y tercer grado, respectivamente. Si desea especificar que las variables con las que va a operar pertenecen al conjunto de los números reales se utiliza el comando <code>real=True</code>.</p>
+<section id="operaciones-sobre-polinomios" class="level3">
+<h3 class="anchored" data-anchor-id="operaciones-sobre-polinomios">Operaciones sobre polinomios</h3>
+<p>Ahora si, el siguiente ejemplo muestra dos polinimos de segundo y tercer orden, respectivamente. Si desea especificar que las variables con las que va a operar pertenecen al conjunto de los números reales se utiliza el comando <code>real=True</code>.</p>
 <div id="cell-14" class="cell" data-outputid="1c3d6897-70cd-4d00-f6e5-146ec7fca0cc">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -324,7 +330,7 @@ window.Quarto = {
 </div>
 <section id="sumas-y-restas" class="level4">
 <h4 class="anchored" data-anchor-id="sumas-y-restas">Sumas y restas</h4>
-<p>Se pueden sumar o restar expresiones algebraicas, empleando el operador <code>+</code> y <code>-</code>, respectivamente. A continuación, se presentan ejemplos de suma y resta empleando las expresiones algebraicas <code>f</code> y <code>g</code>, previamente definidas.</p>
+<p>Se pueden sumar o restar expresiones algebraicas, empleando el operador <code>-</code> y <code>+</code>, respectivamente. A continuación, se presentan ejemplos de suma y resta empleando las expresiones algebraicas <code>f</code> y <code>g</code>, previamente definidas.</p>
 <div id="cell-16" class="cell" data-outputid="a897bf37-ea35-4609-c2a4-576d9dff4e79">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>display(f<span class="op">+</span>g)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>display(g<span class="op">-</span>f)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -356,7 +362,7 @@ window.Quarto = {
 </section>
 <section id="factorización" class="level4">
 <h4 class="anchored" data-anchor-id="factorización">Factorización</h4>
-<p>Del mismo modo, <code>sympy</code> permite factorizar expresiones algebraicas. Para ello se utiliza la función <code>factor</code> de sympy. A continuación, se presenta la factorización del polinomio de segundo grado <span class="math inline">\(x^2-2x-3\)</span>.</p>
+<p>Del mismo modo, <code>sympy</code> permite factorizar expresiones algebraicas. Para ello se utiliza la función <code>factor</code> de sympy. A continuación, se presenta la factorización del polinomio de segundo orden <span class="math inline">\(x^2-2x-3\)</span>.</p>
 <div id="cell-20" class="cell" data-outputid="0cf8793e-6d9f-4613-ddd1-5a8bac029fa7">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>f<span class="op">=</span>x<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> <span class="dv">2</span><span class="op">*</span>x <span class="op">-</span> <span class="dv">3</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>display(f)</span>
@@ -439,7 +445,7 @@ window.Quarto = {
 <p><span class="math inline">\(\displaystyle - \sqrt{2} x^{3} + e x^{2} + \pi x\)</span></p>
 </div>
 </div>
-<p><code>sympy</code> permite involucrar múltiples variables, por lo que es posible trabajar con nombres de variables distintas. A continuación, se presenta la expresión algebraica <span class="math inline">\(x^2+2xy+y^2\)</span> y se simplifica.</p>
+<p><code>sympy</code> permite involucrar multiples variable, por lo que es posible trabajar con nombres de variables distintas. A continuación, se presenta la expresión algebraica <span class="math inline">\(x^2+2xy+y^2\)</span> y se simplifica.</p>
 <div id="cell-30" class="cell" data-outputid="0c18a4dd-8069-4471-b1b8-5c450cc62f52">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>y,x <span class="op">=</span> sp.symbols(<span class="st">'y x'</span>, real<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -465,14 +471,13 @@ window.Quarto = {
 </section>
 <section id="ejercicios-de-apropiación-y-aplicación" class="level3">
 <h3 class="anchored" data-anchor-id="ejercicios-de-apropiación-y-aplicación">Ejercicios de apropiación y aplicación</h3>
-<p>Factorizar o expandir las expresiones algebraicas dadas a continuación, según caso.</p>
+<p>Simplifique o expanda las expresiones algebraicas dadas a continuación.</p>
 <ol type="1">
 <li><p><span class="math inline">\(x^3 - 3x^2 + 2x - 6\)</span></p></li>
 <li><p><span class="math inline">\(((x-4)+(x^2-7))^2\)</span></p></li>
 <li><p><span class="math inline">\((a+b+c)^3\)</span></p></li>
-<li><p>Escriba en una lista los coeficientes de las expresiones anteriores.</p></li>
-<li><p>Calcule <span class="math inline">\((a+b)^3\)</span>, <span class="math inline">\((a+b)^4\)</span>, <span class="math inline">\((a+b)^5\)</span> y escriba en una lista los coeficientes de las expansiones anteriores. ¿Podría inferir los coeficientes de la expansión de <span class="math inline">\((a+b)^8?\)</span></p></li>
-<li><p>Considere el cilindro mostrado en la figura. Escriba una expresión polinomial con las variables <span class="math inline">\(r\)</span> (radio) y <span class="math inline">\(s\)</span> (longitud) que corresponda al área de la región dada. ¿Cómo cambia el área si el valor de <span class="math inline">\(r\)</span> se incrementa pero el de <span class="math inline">\(s\)</span> está fijo? ¿Que ocurre con el área si <span class="math inline">\(r\)</span> está fijo y <span class="math inline">\(s\)</span> aumenta?</p></li>
+<li><p>Escriba en una lista los coeficientes de las expresiones anteriores. Podría inferir los coeficientes de la lista para el caso de <span class="math inline">\((a+b)^8?\)</span></p></li>
+<li><p>Considere el cilindro mostrado en la figura. Escriba una expresión polinomial con las variables <span class="math inline">\(r\)</span> (radio) y <span class="math inline">\(s\)</span> (longitud) que corresponda al área de la región dada. ¿Cómo cambia el área si el valor de <span class="math inline">\(r\)</span> se incremeta pero el de <span class="math inline">\(s\)</span> está fijos? ¿Que ocurre con el área si <span class="math inline">\(r\)</span> está fijo y <span class="math inline">\(s\)</span> aumenta?</p></li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -482,14 +487,14 @@ window.Quarto = {
 </div>
 </section>
 </section>
-<section id="conexión-con-el-reto" class="level2">
-<h2 class="anchored" data-anchor-id="conexión-con-el-reto">Conexión con el reto</h2>
+<section id="solución-del-reto" class="level2">
+<h2 class="anchored" data-anchor-id="solución-del-reto">Solución del reto</h2>
 <section id="tanque-rectangular-para-almacenamiento-de-agua-potable" class="level3">
 <h3 class="anchored" data-anchor-id="tanque-rectangular-para-almacenamiento-de-agua-potable">Tanque rectangular para almacenamiento de agua potable</h3>
 <p>Para una población ubicada en una vereda del municipio de Cali, se diseñó un tanque para el almacenamiento de agua potable. Este tanque, de forma rectangular, tiene un volumen de <span class="math inline">\(1315.7 m^3\)</span>, con un ancho de <span class="math inline">\(11.6 m\)</span> y un largo de <span class="math inline">\(35 m\)</span>.</p>
 <p>Se pide encontrar las siguientes dimensiones: 1. La profundidad del tanque rectangular:</p>
 <p><strong>Respuesta</strong></p>
-<div id="cell-38" class="cell" data-outputid="b1045bb9-fba7-4b9d-ce6e-176bf8a2a059">
+<div id="cell-37" class="cell" data-outputid="b1045bb9-fba7-4b9d-ce6e-176bf8a2a059">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -532,7 +537,6 @@ window.Quarto = {
 <ol start="2" type="1">
 <li>Si se decide construir un tanque de base circular para almacenar el mismo volumen y con la misma altura, ¿Cuál debe ser su diámetro?</li>
 </ol>
-<p><a href="https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo2_MMAF.ipynb">Link en Colab</a>.</p>
 
 
 </section>
