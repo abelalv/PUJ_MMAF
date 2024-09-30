@@ -306,5 +306,55 @@
     "crumbs": [
       "Reto 5. Construyendo para mejorar la calidad de vida"
     ]
+  },
+  {
+    "objectID": "modulo6_MMAF.html",
+    "href": "modulo6_MMAF.html",
+    "title": "Reto 6: Entendiendo el crecimiento del cancer",
+    "section": "",
+    "text": "Los organismos vivos poseen una gran cantidad de células en sus organismos, las cuales se reproducen de forma regulada para reemplazar a las células envejecidas o dañadas. En ocasiones, las células pueden experimentar daños en su material genético, lo que conlleva consecuencias graves, como el desarrollo de tumores. Es fundamental investigar a fondo los tumores para poder abordarlos de manera efectiva. Un aspecto crucial en esta investigación es analizar la velocidad de crecimiento de los tumores, ya que esto es esencial para el desarrollo de tratamientos eficaces y la mejora de los resultados en los pacientes. Los tumores son formaciones anómalas de tejido que, de no recibir tratamiento, pueden experimentar un crecimiento acelerado. La comprensión de su patrón de crecimiento capacita a los profesionales de la medicina para diseñar intervenciones más exactas.\n\n\n\nDALL·E 2024-06-18 12.00.41 - In the Oncology Research Center, a team of scientists is conducting a longitudinal study to better understand tumor growth in cancer patients. The sce.webp",
+    "crumbs": [
+      "Reto 6: Entendiendo el crecimiento del cancer"
+    ]
+  },
+  {
+    "objectID": "modulo6_MMAF.html#contexto",
+    "href": "modulo6_MMAF.html#contexto",
+    "title": "Reto 6: Entendiendo el crecimiento del cancer",
+    "section": "",
+    "text": "Los organismos vivos poseen una gran cantidad de células en sus organismos, las cuales se reproducen de forma regulada para reemplazar a las células envejecidas o dañadas. En ocasiones, las células pueden experimentar daños en su material genético, lo que conlleva consecuencias graves, como el desarrollo de tumores. Es fundamental investigar a fondo los tumores para poder abordarlos de manera efectiva. Un aspecto crucial en esta investigación es analizar la velocidad de crecimiento de los tumores, ya que esto es esencial para el desarrollo de tratamientos eficaces y la mejora de los resultados en los pacientes. Los tumores son formaciones anómalas de tejido que, de no recibir tratamiento, pueden experimentar un crecimiento acelerado. La comprensión de su patrón de crecimiento capacita a los profesionales de la medicina para diseñar intervenciones más exactas.\n\n\n\nDALL·E 2024-06-18 12.00.41 - In the Oncology Research Center, a team of scientists is conducting a longitudinal study to better understand tumor growth in cancer patients. The sce.webp",
+    "crumbs": [
+      "Reto 6: Entendiendo el crecimiento del cancer"
+    ]
+  },
+  {
+    "objectID": "modulo6_MMAF.html#contenido-de-apoyo",
+    "href": "modulo6_MMAF.html#contenido-de-apoyo",
+    "title": "Reto 6: Entendiendo el crecimiento del cancer",
+    "section": "Contenido de apoyo",
+    "text": "Contenido de apoyo\n\nGráficos de la función exponencial y logarítmica\nLa función exponencial es una función matemática, habitual mente se llama la función Euler y se representa de la forma \\[f(x)=e^x,\\] y para calcularla se puede usar la librería numpy de Python. por ejemplo, para calcular el valor de la función exponencial en 2, se puede usar el siguiente código:\n\nimport numpy as np\na=np.exp(2)  # calculo de la exponencial de 2\nprint(a)\n\n7.38905609893065\n\n\nAhora bien, si queremos graficar la función exponencial, podemos hacerlo de la siguiente manera:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Generar los puntos para el gráfico\nx = np.linspace(-3, 3, 1000)  # Ajustar el rango de valores de x y aumentar la resolución\n\n# Evaluar la función exponencial directamente en los valores de x\ny = np.exp(x)\n\n# Graficar la función\nplt.plot(x, y)\nplt.axhline(0, color='black', linewidth=0.5)  # Agregar una línea en y=0\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Gráfico de la función $e^x$')\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nRecuerde que la función exponencial tiene la forma de una curva que crece rápidamente, y que su dominio es el conjunto de los números reales, de la misma manera, su rango es el conjunto de los números reales positivos.\n\nimport requests\n# URL del archivo\nurl = \"https://raw.githubusercontent.com/abelalv/PUJ_MMAF/main/libreria6.py\"\n# Descargar el archivo\nresponse = requests.get(url)\nwith open('libreria6.py', 'w') as file:\n    file.write(response.text)\n\nimport libreria6 as li\n\nfrom IPython.display import display\nimport ipywidgets as widgets\n\n# Crear un widget interactivo para la gráfica\nexp_widget = widgets.interactive(li.update_grafica_exp, a=li.a_slider, b=li.b_slider, c=li.c_slider,d=li.d_slider)\n\n# Mostrar el widget\ndisplay(exp_widget)",
+    "crumbs": [
+      "Reto 6: Entendiendo el crecimiento del cancer"
+    ]
+  },
+  {
+    "objectID": "modulo6_MMAF.html#apropiación-y-aplicación-del-contenido",
+    "href": "modulo6_MMAF.html#apropiación-y-aplicación-del-contenido",
+    "title": "Reto 6: Entendiendo el crecimiento del cancer",
+    "section": "Apropiación y aplicación del contenido",
+    "text": "Apropiación y aplicación del contenido\n\nConsidere la función \\(f(x)=\\dfrac{2 ^{x}}{7}\\), grafique la función.\nGrafique las funciones y describa que movimientos en el plano respecto a la gráfica de la función \\(y=exp(2x)\\)\n\n\n\\(y=exp(-2x)\\)\n\\(y=-exp(2x)\\)\n\\(y=-exp(-2x)+6\\)\n\n\nIntente gráficar la función \\(y=exp(10x)\\) en el intervalo \\([100,1000]\\) ¡Que sucede?\nLa graficar la función \\(y=0.1^x\\) porque decrece para valores de \\(x\\) muy grandes\nGrafique la función \\(y=\\log_4(x)\\)\nResuelva las ecuaciones\n\n\n\\(ln(x^2-1)=2\\)\n\\(exp(x-1)=100\\)\n\n\nUn biólogo está estudiando el crecimiento de una población de bacterias en un laboratorio. La cantidad de bacterias \\(N(t)\\) después de \\(t\\) horas sigue el modelo de crecimiento:\n\n\\[\nN(t) = N_0 \\cdot e^{kt}\n\\]\ndonde \\(N_0\\) es la cantidad inicial de bacterias y \\(k\\) es la tasa de crecimiento. Después de 5 horas, el biólogo observa que la población de bacterias se ha multiplicado por 16. Si la población inicial era de 100 bacterias, encuentra la tasa de crecimiento \\(k\\).",
+    "crumbs": [
+      "Reto 6: Entendiendo el crecimiento del cancer"
+    ]
+  },
+  {
+    "objectID": "modulo6_MMAF.html#familiaridad-con-el-reto",
+    "href": "modulo6_MMAF.html#familiaridad-con-el-reto",
+    "title": "Reto 6: Entendiendo el crecimiento del cancer",
+    "section": "Familiaridad con el reto",
+    "text": "Familiaridad con el reto\nUna curva logística es la gráfica de una ecuación de la forma \\[y = \\frac{k}{1 + b \\cdot e^{-cx}}\\]\ndonde \\(k\\), \\(b\\) y \\(c\\) son constantes positivas. Estas curvas son útiles para describir el crecimiento de un tumor que inicialmente crece rápidamente, pero cuya rapidez de crecimiento disminuye después de que \\(x\\) alcanza cierto valor.\nEn un estudio famoso del crecimiento de tumores realizado por Gause, se encontró que un tumor estaba descrito por una ecuación logística con \\(c = 1.1244\\), \\(k = 105\\) y \\(x\\) el tiempo en días.\n\nEncuentre \\(b\\) si la población inicial de células tumorales era de 3.\nEn el estudio, la máxima rapidez de crecimiento tuvo lugar en \\(y = 52\\), suponiendo que \\(b\\) es el que se encontró en la población anterior. ¿En qué tiempo \\(x\\) ocurrió esto?\nJustifique porque después de un largo tiempo, el crecimiento del tumor descrito se aproxima a la constante \\(k\\).",
+    "crumbs": [
+      "Reto 6: Entendiendo el crecimiento del cancer"
+    ]
   }
 ]
