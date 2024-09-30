@@ -26,3 +26,5 @@ Links de los repositorios
 4. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo4_MMAF.ipynb).
 
 4. [Actividad 5](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo5_MMAF.ipynb).
+
+5. [Actividad 6](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo6_MMAF.ipynb).
