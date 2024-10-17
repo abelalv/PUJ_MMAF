@@ -437,3 +437,85 @@ def plot_two_triangles(angle_radians, hypotenuse1, hypotenuse2):
     ax[1].text(1.11, 0.6, f"= {sin_cociente2:.2f}", fontsize=14, color='black')
     
     plt.show()
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+
+# Función principal para generar la animación de "Los Pollitos"
+def los_pollitos_animation(rate=22050, duration=0.5, output_file='los_pollitos_animation.mp4'):
+    """
+    Genera una animación de la superposición de ondas sinusoidales correspondientes
+    a la melodía de 'Los Pollitos' y la guarda como archivo .mp4.
+
+    Parámetros:
+    - rate: Tasa de muestreo en Hz (por defecto 22050)
+    - duration: Duración de cada nota en segundos (por defecto 0.5)
+    - output_file: Nombre del archivo de salida (por defecto 'los_pollitos_animation.mp4')
+    """
+    # Eje de tiempo
+    t = np.linspace(0, duration, int(rate * duration), endpoint=False)
+
+    # Frecuencias de las notas musicales (en Hz)
+    notes = {
+        'C': 261.63,  # Do
+        'D': 293.66,  # Re
+        'E': 329.63,  # Mi
+        'F': 349.23,  # Fa
+        'G': 392.00,  # Sol
+        'A': 440.00,  # La
+        'B': 493.88,  # Si
+        'C_high': 523.25  # Do (una octava más alta)
+    }
+
+    # Función para generar una onda sinusoidal para una nota
+    def generate_wave(note):
+        frequency = notes[note]
+        wave = 0.5 * np.sin(2 * np.pi * frequency * t)  # Amplitud de 0.5 para evitar saturación
+        return wave
+
+    # Melodía de "Los Pollitos" (simplificada)
+    melody = [
+        'E', 'E', 'F', 'G', 'G', 'F', 'E', 'D',  # "Los pollitos dicen pío, pío, pío"
+        'C', 'C', 'D', 'E', 'E', 'D', 'D',       # "cuando tienen hambre"
+        'E', 'E', 'F', 'G', 'G', 'F', 'E', 'D',  # "y cuando tienen frío"
+        'C', 'C', 'D', 'E', 'D', 'C'             # "La mamá les busca el maíz y el trigo"
+    ]
+
+    # Generar las ondas para cada nota en la melodía
+    waves = [generate_wave(note) for note in melody]
+
+    # Crear la figura para la animación
+    fig, ax = plt.subplots(figsize=(10, 6))
+    line, = ax.plot([], [], lw=2)
+
+    # Configuración de los ejes
+    ax.set_xlim(0, duration)
+    ax.set_ylim(-1, 1)
+    ax.set_xlabel("Time (s)")
+    ax.set_ylabel("Amplitude")
+    ax.set_title("Superposición de las ondas sinusoidales de 'Los Pollitos'")
+
+    # Inicialización de la gráfica
+    def init():
+        line.set_data([], [])
+        return line,
+
+    # Función para actualizar la animación
+    def update(frame):
+        # Superponer las ondas de las primeras `frame+1` notas
+        current_wave = np.sum(waves[:frame+1], axis=0) / (frame + 1)  # Normalizar la amplitud
+        line.set_data(t, current_wave)
+        return line,
+
+    # Crear la animación
+    ani = FuncAnimation(fig, update, frames=len(waves), init_func=init, blit=True, interval=500)
+
+    # Guardar la animación como archivo .mp4
+    ani.save(output_file, writer='ffmpeg')
+
+    # Mostrar la animación
+    plt.show()
+
+
