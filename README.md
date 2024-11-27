@@ -2,7 +2,7 @@
 
 1. Módulo 1
     
-    P. [Herramientas computacionales 1](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_1/MMAF_python_1.ipynb)
+    C. [Herramientas computacionales 1](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_1/MMAF_python_1.ipynb)
 
     T. [Taller 1](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_1/MMAF_taller_1.ipynb)
     
