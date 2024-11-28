@@ -1,6 +1,5 @@
 # En este archivo estará la librería de funciones que se utilizarán en el programa principal
 
-
 def calcular_poblacion(juveniles_iniciales, adultas_iniciales, tasa_reproduccion, tasa_conversion, tasa_supervivencia, epocas):
     """
     Calcula la población de ardillas a lo largo de varios años.
@@ -35,5 +34,9 @@ def calcular_poblacion(juveniles_iniciales, adultas_iniciales, tasa_reproduccion
         # Población total
         poblacion_total = juveniles + adultas
         lista_poblaciones.append((epocas, juveniles, adultas, poblacion_total))
+        # --- RESULTADOS ---
+    print(f"{'Año':<5}{'Juveniles':<15}{'Adultas':<15}{'Población Total':<15}")
+    for epocas, juveniles, adultas, total in lista_poblaciones:
+        print(f"{epocas:<5}{int(juveniles):<15}{int(adultas):<15}{int(total):<15}")
     
-    return lista_poblaciones
+    return 
