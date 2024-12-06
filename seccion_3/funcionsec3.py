@@ -28,6 +28,6 @@ def obtener_resultado(costo_inicial_mantenimiento, tasa_aumento_mantenimiento,
     tiempo, costo = calcular_tiempo(costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
                                     costo_inicial_software, tasa_aumento_software, limite_presupuestado)
     if tiempo is not None:
-        return f"Tiempo estimado: {tiempo:.2f} años\nCosto total en ese tiempo: ${costo:,.2f}"
+        return f"Tiempo estimado: {float(tiempo):.2f} años\nCosto total en ese tiempo: ${float(costo):,.2f}"
     else:
         return "No se encontró un tiempo que cumpla con el límite presupuestado."
