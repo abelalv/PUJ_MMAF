@@ -14,11 +14,11 @@ def costo_soluciones(t):
 
 # Resolver la ecuación cuadrática de Pepito_Perez para encontrar el tiempo
 def calcular_tiempo_limite(limite):
-    t = symbols('t')
+    t = symbols('t', real=True)
     ecuacion = Eq(costo_pepito_perez(t), limite)
     soluciones = solve(ecuacion, t)
-    # Filtrar soluciones válidas (tiempo positivo)
-    soluciones_validas = [sol for sol in soluciones if sol > 0]
+    # Filtrar soluciones válidas (tiempo positivo y real)
+    soluciones_validas = [sol for sol in soluciones if sol.is_real and sol > 0]
     return soluciones_validas[0] if soluciones_validas else None
 
 # Comparar los costos en el tiempo calculado
