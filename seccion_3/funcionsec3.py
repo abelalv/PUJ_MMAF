@@ -1,33 +1,32 @@
 from sympy import symbols, Eq, solve
 
-# Función para calcular el costo total
-def costo_total(t, costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
-                costo_inicial_software, tasa_aumento_software):
-    return (costo_inicial_mantenimiento + tasa_aumento_mantenimiento * t +
-            costo_inicial_software + tasa_aumento_software * t**2)
+# Función para el costo cuadrático de Pepito_Perez
+def costo_pepito_perez(t):
+    return -2000 * t**2 + 20000 * t + 800000
 
-# Función para resolver la ecuación y formatear los resultados
-def calcular_tiempo(costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
-                    costo_inicial_software, tasa_aumento_software, limite_presupuestado):
+# Función para el costo lineal de Interprase
+def costo_interprase(t):
+    return 850000 + 22000 * t
+
+# Función para el costo lineal de Soluciones Express
+def costo_soluciones(t):
+    return 1150000 + 420 * t
+
+# Resolver la ecuación cuadrática de Pepito_Perez para encontrar el tiempo
+def calcular_tiempo_limite(limite):
     t = symbols('t')
-    ecuacion = Eq(costo_total(t, costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
-                              costo_inicial_software, tasa_aumento_software), limite_presupuestado)
+    ecuacion = Eq(costo_pepito_perez(t), limite)
     soluciones = solve(ecuacion, t)
+    # Filtrar soluciones válidas (tiempo positivo)
     soluciones_validas = [sol for sol in soluciones if sol > 0]
-    if soluciones_validas:
-        tiempo = soluciones_validas[0]
-        costo = costo_total(tiempo, costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
-                            costo_inicial_software, tasa_aumento_software)
-        return tiempo, costo
-    else:
-        return None, None
+    return soluciones_validas[0] if soluciones_validas else None
 
-# Función para formatear la salida
-def obtener_resultado(costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
-                      costo_inicial_software, tasa_aumento_software, limite_presupuestado):
-    tiempo, costo = calcular_tiempo(costo_inicial_mantenimiento, tasa_aumento_mantenimiento, 
-                                    costo_inicial_software, tasa_aumento_software, limite_presupuestado)
-    if tiempo is not None:
-        return f"Tiempo estimado: {float(tiempo):.2f} años\nCosto total en ese tiempo: ${float(costo):,.2f}"
+# Comparar los costos en el tiempo calculado
+def comparar_costos(limite):
+    t_max = calcular_tiempo_limite(limite)
+    if t_max:
+        ci = costo_interprase(t_max)
+        cs = costo_soluciones(t_max)
+        return t_max, ci, cs
     else:
-        return "No se encontró un tiempo que cumpla con el límite presupuestado."
+        return None, None, None
