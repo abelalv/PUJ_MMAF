@@ -1,34 +1,28 @@
 # Modelos Matemáticos Aplicados Fundamentos
-En el ámbito educativo de Modelos Matemáticos Aplicados Fundamentos, se ha establecido un repositorio completo con la finalidad de promover el fortalecimiento de las destrezas matemáticas y computacionales en los estudiantes. Dicho repositorio incluye ocho actividades meticulosamente elaboradas con el propósito de que los estudiantes aborden desafíos reales de su entorno, empleando herramientas matemáticas y computacionales.
+En el curso de Modelos Matemáticos Aplicados Fundamentos, se ha establecido un repositorio completo con la finalidad de promover el fortalecimiento de las destrezas matemáticas y computacionales en los estudiantes. Dicho repositorio incluye ocho actividades con el propósito de que los estudiantes aborden desafíos reales de su entorno, empleando herramientas matemáticas y computacionales.
 
-Cada actividad ha sido diseñada con una estructura que plantea desafíos significativos, con el propósito de motivar a los estudiantes a emplear sus conocimientos en la resolución de problemas con aplicaciones prácticas. Asimismo, todas las actividades han sido incorporadas en Google Colab, lo que simplifica la disponibilidad y el uso de recursos computacionales avanzados, fomentando un enfoque educativo interactivo y práctico.
+Cada actividad ha sido diseñada con una estructura que plantea desafíos de diferente tipo, con el propósito de motivar a los estudiantes a emplear sus conocimientos en la resolución de problemas con aplicaciones prácticas. Asimismo, todas las actividades han sido incorporadas en Google Colab.
 
-El principal enfoque de este repositorio es el fomento del desarrollo de habilidades matemáticas entre los estudiantes. Se pretende que estos no solo adquieran comprensión de los conceptos teóricos, sino que también logren aplicarlos en contextos prácticos, lo que contribuirá a fortalecer su capacidad de análisis y resolución de problemas. Las actividades han sido concebidas con el propósito de resultar desafiantes y, al mismo tiempo, motivadoras, con el objetivo de estimular a los estudiantes a explorar y potenciar sus competencias de manera autónoma y colaborativa.
+El principal enfoque de este repositorio es el fomento del desarrollo de habilidades matemáticas entre los estudiantes. Se pretende que estos no solo adquieran comprensión de los conceptos teóricos, sino que también logren aplicarlos en contextos prácticos, lo que contribuirá a fortalecer su capacidad de análisis y resolución de problemas. 
 
-En síntesis, el repositorio mencionado constituye una herramienta de gran utilidad para el estudio y la aplicación de las matemáticas en contextos prácticos. Proporciona a los estudiantes la posibilidad de mejorar sus destrezas en un entorno educativo innovador y tecnológicamente avanzado. La combinación de ejercicios prácticos con la utilización de Google Colab garantiza que los estudiantes adquieran una preparación sólida para afrontar los desafíos del mundo real, respaldados por un sólido conocimiento en matemáticas y computación.
-
-
-Link de la pagina web 
-
-[Modelos Matemáticos Aplicados Fundamentos](https://abelalv.github.io/PUJ_MMAF/)
-
-
+[Estructura del curso]()
 
 Links de los repositorios
 
 
-1. [Actividad 1](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo1_MMAF.ipynb).
+1. Módulo 1
+    
+    C. [Herramientas computacionales 1](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_1/MMAF_python_1.ipynb)
 
-2. [Actividad 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo2_MMAF.ipynb).
+    T. [Taller 1](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_1/MMAF_taller_1.ipynb)
+    
+    A. [Actividad 1](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_1/MMAF_actividad_1.ipynb)
 
-3. [Actividad 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo3_MMAF.ipynb).
+2. Módulo 2
+    
+    C. [Herramientas computacionales 2](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_2/MMAF_python_2.ipynb)
 
-4. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo4_MMAF.ipynb).
-
-5. [Actividad 5](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo5_MMAF.ipynb).
-
-6. [Actividad 6](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo6_MMAF.ipynb).
-
-7. [Actividad 7](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo7_MMAF.ipynb).
-
-8. [Actividad 8](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/modulo8_MMAF.ipynb).
+    T. [Taller 2](https://githubtocolab.com/abelalv/MMAF_2025/blob/main/seccion_2/MMAF_taller_2.ipynb)
+    
+    A. [Actividad 1] **Actividad calificable disponible en la última clase del módulo**
+   
