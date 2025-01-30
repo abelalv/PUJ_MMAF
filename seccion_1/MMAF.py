@@ -25,10 +25,11 @@ def calcular_poblacion(juveniles_iniciales, adultas_iniciales, tasa_reproduccion
         # Cálculos
         juveniles_nuevas = adultas * tasa_reproduccion
         juveniles_que_pasan = juveniles * tasa_conversion
+        juveniles_que_permanecen = juveniles * (1 - tasa_conversion)
         adultas_sobrevivientes = adultas * tasa_supervivencia
 
         # Nuevos valores de juveniles y adultas
-        juveniles = juveniles_nuevas
+        juveniles = juveniles_nuevas + juveniles_que_permanecen
         adultas = juveniles_que_pasan + adultas_sobrevivientes
 
         # Población total
