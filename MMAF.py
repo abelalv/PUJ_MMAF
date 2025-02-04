@@ -40,3 +40,4 @@ def calcular_poblacion(juveniles_iniciales, adultas_iniciales, tasa_reproduccion
         print(f"{epocas:<5}{int(juveniles):<15}{int(adultas):<15}{int(total):<15}")
     
     return 
+
