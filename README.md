@@ -24,4 +24,4 @@ Links de los repositorios
 
     T. [Taller 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_taller_2.ipynb)
     
-    A. [Actividad 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_1/MMAF_actividad_2.ipynb)
+    A. [Actividad 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_actividad_2.ipynb)
