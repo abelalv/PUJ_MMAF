@@ -24,5 +24,5 @@ Links de los repositorios
 
     T. [Taller 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_taller_2.ipynb)
     
-    A. [Actividad 1] **Actividad calificable disponible en la última clase del módulo**
+    A. [Actividad 2] **Actividad calificable disponible en la última clase del módulo**
    
