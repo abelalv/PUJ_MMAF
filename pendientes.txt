@@ -1,3 +1,0 @@
-Colocar en un modulo computacional el uso de constantes como pi e 
-Organizar los link de acceso a los videos y link de referencias en el indice
-Actualizar los talleres 1,2,3 con problemas en contexto 
