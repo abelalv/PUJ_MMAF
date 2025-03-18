@@ -41,3 +41,11 @@ Links de los repositorios
    T. [Taller 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_taller_4.ipynb)
    
    A. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_actividad_4.ipynb) **Actividad calificable disponible en la última clase del módulo**
+
+5. Modulo 5
+   
+   C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_5/MMAF_python_5.ipynb)
+   
+   T. [Taller 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_5/MMAF_taller_5.ipynb)
+   
+   A. [Actividad 5]
