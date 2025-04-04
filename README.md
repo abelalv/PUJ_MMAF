@@ -54,7 +54,7 @@ Links de los repositorios
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_python_6.ipynb)
    
-   T. [Taller 5](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_taller_6.ipynb)
+   T. [Taller 6](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_taller_6.ipynb)
    
    A. [Actividad 6](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_actividad_6.ipynb)
 
