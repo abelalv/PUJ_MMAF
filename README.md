@@ -56,7 +56,7 @@ Links de los repositorios
    
    T. [Taller 6](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_taller_6.ipynb)
 
-   A. [Actividad 6].(https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_actividad_6.ipynb)
+   A. [Actividad 6](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_6/MMAF_actividad_6.ipynb)
    
    
 
