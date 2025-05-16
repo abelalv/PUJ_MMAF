@@ -73,6 +73,6 @@ Links de los repositorios
    
    T. [Taller 8](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_8/MMAF_taller_8.ipynb)
    
-   A. [Actividad 7](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_8/MMAF_actividad_8.ipynb)
+   A. [Actividad 8](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_8/MMAF_actividad_8.ipynb)
 
    
