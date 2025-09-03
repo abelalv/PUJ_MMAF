@@ -18,15 +18,23 @@ Links de los repositorios
     
     A. [Actividad 1](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_1/MMAF_actividad_1.ipynb)
 
-2. Módulo 2
+    V. Videos de apoyo
+        - [Video de Ruptura de Parentesis](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3838a2e5-1ac5-4bb4-b98d-b33e01310db5)
+        - [Video de Porcentajes y proporciones](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a33300b-8904-4d7b-8531-b33e01310dd7)
+
+3. Módulo 2
     
     C. [Herramientas computacionales 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_python_2.ipynb)
 
     T. [Taller 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_taller_2.ipynb)
     
     A. [Actividad 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_actividad_2.ipynb) **Actividad calificable disponible en la última clase del módulo**
+
+    V. Videos de apoyo
+        - [Video de Ruptura de Parentesis](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3838a2e5-1ac5-4bb4-b98d-b33e01310db5)
+        - [Video de Porcentajes y proporciones](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a33300b-8904-4d7b-8531-b33e01310dd7)
    
-3. Módulo 3
+5. Módulo 3
     
     C. [Herramientas computacionales 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_3/MMAF_python_3.ipynb)
 
@@ -34,7 +42,7 @@ Links de los repositorios
     
     A. [Actividad 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_3/MMAF_actividad_3.ipynb) 
    
-4. Modulo 4
+6. Modulo 4
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_python_4.ipynb)
    
@@ -42,7 +50,7 @@ Links de los repositorios
    
    A. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_actividad_4.ipynb) **Actividad calificable disponible en la última clase del módulo**
 
-5. Modulo 5
+7. Modulo 5
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_5/MMAF_python_5.ipynb)
    
