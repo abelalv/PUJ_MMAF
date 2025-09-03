@@ -18,9 +18,9 @@ Links de los repositorios
     
     A. [Actividad 1](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_1/MMAF_actividad_1.ipynb)
 
-    V. Videos de apoyo
-        - [Video de Ruptura de Parentesis](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3838a2e5-1ac5-4bb4-b98d-b33e01310db5)
-        - [Video de Porcentajes y proporciones](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a33300b-8904-4d7b-8531-b33e01310dd7)
+    V. Videos de apoyo  
+        - [Video de Ruptura de Parentesis](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3838a2e5-1ac5-4bb4-b98d-b33e01310db5)  
+        - [Video de Porcentajes y proporciones](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a33300b-8904-4d7b-8531-b33e01310dd7)  
 
 3. Módulo 2
     
@@ -30,9 +30,9 @@ Links de los repositorios
     
     A. [Actividad 2](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_2/MMAF_actividad_2.ipynb) **Actividad calificable disponible en la última clase del módulo**
 
-    V. Videos de apoyo
-        - [Video de Ruptura de Parentesis](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3838a2e5-1ac5-4bb4-b98d-b33e01310db5)
-        - [Video de Porcentajes y proporciones](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a33300b-8904-4d7b-8531-b33e01310dd7)
+    V. Videos de apoyo  
+        - [Video de Expresiones Radicales y Racionales](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbce3cd4-9030-4cc6-9c72-b34c00d3df19)  
+        - [Video de Volumenes](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54d9ce1f-4d4f-4b20-aba3-b34c00d3dee4)  
    
 5. Módulo 3
     
