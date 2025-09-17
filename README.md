@@ -40,9 +40,13 @@ Links de los repositorios
 
     T. [Taller 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_3/MMAF_taller_3.ipynb)
     
-    A. [Actividad 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_3/MMAF_actividad_3.ipynb) 
+    A. [Actividad 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_3/MMAF_actividad_3.ipynb)
    
-6. Modulo 4
+    V. Videos de apoyo  
+        - [Video de Solución de ecuaciones racionales](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1dc4bb0-6e1b-47d2-9880-b35b00d7a865)  
+        - [Video de Solución de ecuaciones cuadráticas en física](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4316a37-7d6a-47ff-97e2-b35b00d7a847)  
+   
+7. Modulo 4
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_python_4.ipynb)
    
@@ -50,7 +54,7 @@ Links de los repositorios
    
    A. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_actividad_4.ipynb) **Actividad calificable disponible en la última clase del módulo**
 
-7. Modulo 5
+8. Modulo 5
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_5/MMAF_python_5.ipynb)
    
