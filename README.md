@@ -43,7 +43,7 @@ Links de los repositorios
     A. [Actividad 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_3/MMAF_actividad_3.ipynb)
    
     V. Videos de apoyo  
-        - [Video de Solución de ecuaciones racionales](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1dc4bb0-6e1b-47d2-9880-b35b00d7a865)  
+        - [Video de Solución de ecuaciones racionales](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1dc4bb0-6e1b-47d2-9880-b35b00d7a865)   
         - [Video de Solución de ecuaciones cuadráticas en física](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4316a37-7d6a-47ff-97e2-b35b00d7a847)  
    
 7. Modulo 4
@@ -55,7 +55,7 @@ Links de los repositorios
    A. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_actividad_4.ipynb) **Actividad calificable disponible en la última clase del módulo**
 
    V. Videos de apoyo  
-        - [Solución de desigualdades cuadraticas](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4f26f55e-b8b5-4df4-a4b5-b38400ddea92)
+        - [Solución de desigualdades cuadraticas](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4f26f55e-b8b5-4df4-a4b5-b38400ddea92)  
         - [Distancia entre rectas y puntos](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=876c33b0-950a-4231-bb5e-b38400ddeacb&start=0)  
 
 9. Modulo 5
