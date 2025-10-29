@@ -50,11 +50,15 @@ Links de los repositorios
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_python_4.ipynb)
    
-   T. [Taller 3](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_taller_4.ipynb)
+   T. [Taller 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_taller_4.ipynb)
    
    A. [Actividad 4](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_4/MMAF_actividad_4.ipynb) **Actividad calificable disponible en la última clase del módulo**
 
-8. Modulo 5
+   V. Videos de apoyo  
+        - [Solución de desigualdades cuadraticas](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4f26f55e-b8b5-4df4-a4b5-b38400ddea92)
+        - [Distancia entre rectas y puntos](https://ujaverianacali.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=876c33b0-950a-4231-bb5e-b38400ddeacb&start=0)  
+
+9. Modulo 5
    
    C. [Herramientas computacionales](https://githubtocolab.com/abelalv/PUJ_MMAF/blob/main/seccion_5/MMAF_python_5.ipynb)
    
